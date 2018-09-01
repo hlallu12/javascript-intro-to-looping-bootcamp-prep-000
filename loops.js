@@ -9,6 +9,7 @@ function forLoop(array){
   return array;
 }
 
+<<<<<<< HEAD
 function whileLoop(n) {
   while (n >= 0) {
     if (n === 0) {
@@ -32,4 +33,15 @@ function doWhileLoop(array) {
     incrementVariable();
   } while (array.length > 0 && incrementVariable())
   return array
+=======
+function whileLoop(number) {
+  while (number > 0) {
+    if (number === 0) {
+      console.log("done");
+    } else {
+    console.log(number);
+    }
+  }
+  number--
+>>>>>>> ded63a75e96a65655b1bd9554e95e5f2ab85689a
 }
